@@ -1,0 +1,9 @@
+asgiref==3.2.10
+defusedxml==0.6.0
+Django==3.0.8
+django-phone-field==1.8.1
+djangorestframework==3.11.0
+djangorestframework-xml==2.0.0
+mysqlclient @ file:///C:/Users/Saurabh/Desktop/untitled/mysqlclient-1.4.6-cp38-cp38-win32.whl
+pytz==2020.1
+sqlparse==0.3.1
