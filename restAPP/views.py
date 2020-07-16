@@ -12,7 +12,7 @@ class CustomerViewSet(generics.ListAPIView):
     serializer_class = CustomerSerializer
 
     def get_queryset(self):
-        return Customer.objects.all().annotate(total_purchase=Count('customer_id', distinct=True))
+        return Customer.objects.all().annotate(total_purchase=Count('CustomerPurchase', distinct=True))
 
 
 class PurchaseList(generics.ListAPIView):
